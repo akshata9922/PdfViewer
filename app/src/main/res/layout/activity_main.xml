@@ -14,9 +14,21 @@
         android:textSize="18dp"
         android:gravity="center"></TextView>
 
+    <TextView
+        android:layout_below="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                          Download PDF"
+        android:id="@+id/btndownload"
+        android:textSize="18dp"
+
+        android:gravity="center"></TextView>
+
+
+
     <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfView"
-        android:layout_below="@+id/tv_header"
+        android:layout_below="@+id/btndownload"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
